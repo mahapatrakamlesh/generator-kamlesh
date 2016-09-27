@@ -76,6 +76,10 @@ module.exports = yeoman.generators.Base.extend({
         this.templatePath('_public/_css/_app.css'),
         this.destinationPath('public/css/app.css')
       );
+       this.fs.copy(
+        this.templatePath('_public/_css/_app1.css'),
+        this.destinationPath('public/css/app1.css')
+      );
       this.fs.copy(
         this.templatePath('_public/_js/_app.js'),
         this.destinationPath('public/js/app.js')
