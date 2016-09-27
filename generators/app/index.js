@@ -11,7 +11,7 @@ module.exports = yeoman.generators.Base.extend({
     this.prompt({
       type: 'input',
       name: 'name',
-      message: 'Your project name',
+       message: 'What kind of css File is required type(css1 or css2)',
       //Defaults to the project's folder name if the input is skipped
       default: this.appname
     }, function(answers) {
